@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:house_rent/widget/category.dart';
-import 'package:house_rent/widget/recommmended_house.dart';
-import 'package:house_rent/widget/search_input.dart';
-import 'package:house_rent/widget/welcome_text.dart';
+import 'package:house_rent/screen/home/widget/best_offer.dart';
+import 'package:house_rent/screen/home/widget/category.dart';
+import 'package:house_rent/screen/home/widget/recommmended_house.dart';
+import 'package:house_rent/screen/home/widget/search_input.dart';
+import 'package:house_rent/screen/home/widget/welcome_text.dart';
 
 import '../../constant/color.dart';
-import '../../widget/custom_appbar.dart';
+import 'widget/custom_appbar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -22,7 +23,8 @@ class HomePage extends StatelessWidget {
             const WelcomeText(),
             const SearchInput(),
             const Categories(),
-            RecommendedHouse()
+            RecommendedHouse(),
+            BestOffer()
           ],
         ),
       )
