@@ -7,6 +7,7 @@ import 'package:house_rent/screen/home/widget/welcome_text.dart';
 
 import '../../constant/color.dart';
 import 'widget/custom_appbar.dart';
+import 'widget/custom_navigation_bar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -27,7 +28,8 @@ class HomePage extends StatelessWidget {
             BestOffer()
           ],
         ),
-      )
+      ),
+      bottomNavigationBar: CustomBottomNavigationBar(),
     );
   }
 }
