@@ -10,12 +10,12 @@ class House{
       House(
       "ADA Dome", 
       "P23A, Chapo's Drive Vi", 
-      "assets/images/house.jpeg"
+      "assets/images/house7.jpeg"
       ),
       House(
       "Le Chapol Paradisa",  
       "P23A, Kaduna People", 
-      "assets/images/straight-house.jpeg"
+      "assets/images/house8.jpeg"
       ),
       House(
       "Ace Of Spade Villa", 

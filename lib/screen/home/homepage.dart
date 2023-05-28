@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:house_rent/screen/home/widget/best_offer.dart';
 import 'package:house_rent/screen/home/widget/category.dart';
+import 'package:house_rent/screen/home/widget/custom_navigation_bar.dart';
 import 'package:house_rent/screen/home/widget/recommmended_house.dart';
 import 'package:house_rent/screen/home/widget/search_input.dart';
 import 'package:house_rent/screen/home/widget/welcome_text.dart';
 
 import '../../constant/color.dart';
 import 'widget/custom_appbar.dart';
-import 'widget/custom_navigation_bar.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: CustomBottomNavigationBar(),
+      bottomNavigationBar: buildBottomNavBar(),
     );
   }
 }
