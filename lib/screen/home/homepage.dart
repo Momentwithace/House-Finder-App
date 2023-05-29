@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: buildBottomNavBar(),
+      bottomNavigationBar: const buildBottomNavBar(),
     );
   }
 }
